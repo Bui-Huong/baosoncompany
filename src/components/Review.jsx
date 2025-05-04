@@ -48,7 +48,7 @@ const Review = () => {
                                   className="w-12 h-12 bg-center bg-cover rounded-full "
                               />
                               <div>
-                                <p className="text-md font-semibold">Lê Minh Hiếu</p>
+                                <p className="text-md font-semibold">Bùi Thùy Dương</p>
                                 <p className="text-sm text-gray-400"> Phát triển sản phẩm</p>
                               </div>
                               <div className="flex">
