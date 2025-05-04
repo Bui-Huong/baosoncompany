@@ -10,7 +10,7 @@ import image3 from "./images/Chương trình đào tạo/Ảnh đào tạo 3.jpg
 import dtcmnv from "./images/Chương trình đào tạo/Khối người lao động.jpg";
 import dtnlkc from "./images/Chương trình đào tạo/Đào tạo.jpg";
 import hinh1 from "./images/Chương trình đào tạo/Khối kinh doanh.jpg";
-import so6 from "./images/Chương trình đào tạo/so6.png";
+import so6 from "./images/Chương trình đào tạo/Hội thảo chia sẻ.jpg";
 import Background from "./images/Background.png";
 const Prices = () => {
     const { innerWidth: width, innerHeight: height } = window;
@@ -56,7 +56,7 @@ const Prices = () => {
                       image={<img
                           src={hinh1}
                           alt="image1"
-                          style={{ fontSize: '5rem',borderTopLeftRadius:'5px',borderTopRightRadius:'5px' ,height:'280px',width:'100%'}}
+                          style={{ fontSize: '5rem',borderTopLeftRadius:'5px',borderTopRightRadius:'5px' ,height:'380px',width:'100%'}}
                       />}
                       title={"Khối kinh doanh, kế toán"}
                       content={"Đảm bảo việc quản lý tài chính hiệu quả, từ việc lập kế hoạch ngân sách đến theo dõi chi phí và doanh thu. Đội ngũ kế toán viên chuyên nghiệp của chúng tôi cam kết cung cấp thông tin tài chính chính xác và kịp thời, giúp lãnh đạo đưa ra các quyết định chiến lược. Sự kết hợp giữa khối kinh doanh và kế toán không chỉ đảm bảo sự phát triển bền vững mà còn tạo điều kiện thuận lợi cho công ty trong việc đạt được các mục tiêu kinh doanh.\n" +
@@ -152,7 +152,7 @@ const Prices = () => {
                       image={<img
                           src={hinh1}
                           alt="image1"
-                          style={{ fontSize: '5rem',borderTopLeftRadius:'5px',borderTopRightRadius:'5px',height:'280px',width:'100%' }}
+                          style={{ fontSize: '5rem',borderTopLeftRadius:'5px',borderTopRightRadius:'5px',height:'360px',width:'90%' }}
                       />}
                       title={"Khối kinh doanh, kế toán"}
                       content={"Đảm bảo việc quản lý tài chính hiệu quả, từ việc lập kế hoạch ngân sách đến theo dõi chi phí và doanh thu. Đội ngũ kế toán viên chuyên nghiệp của chúng tôi cam kết cung cấp thông tin tài chính chính xác và kịp thời, giúp lãnh đạo đưa ra các quyết định chiến lược. Sự kết hợp giữa khối kinh doanh và kế toán không chỉ đảm bảo sự phát triển bền vững mà còn tạo điều kiện thuận lợi cho công ty trong việc đạt được các mục tiêu kinh doanh.\n" +

@@ -4,7 +4,7 @@ import { useAnimation, useInView, motion } from "framer-motion";
 import A from './images/Reviews/Dương.jpg';
 import B from './images/Reviews/Nhật.jpg';
 import C from './images/Reviews/hải.jpg';
-import D from './images/Reviews/huyennt.png';
+import D from './images/Reviews/TuanAnh.png';
 import Background from "./images/Background.png";
 const Review = () => {
     const { innerWidth: width, innerHeight: height } = window;
@@ -73,7 +73,7 @@ const Review = () => {
                                     Phạm Tuấn Anh
                                 </p>
                                 <p className="text-sm dark:text-gray-400">
-                                    Tổ Trưởng công trường
+                                    Tổ Trưởng công xưởng
                                 </p>
                               </div>
                               <div className="flex">
@@ -122,7 +122,7 @@ const Review = () => {
                                 <p className="text-md font-semibold">
                                     Trần Thành Nhật
                                 </p>
-                                <p className="text-sm dark:text-gray-400">Kỹ thuật viên</p>
+                                <p className="text-sm dark:text-gray-400">TP.kỹ thuật viên</p>
                               </div>
                               <div className="flex">
                                 <MdVerified
@@ -229,7 +229,7 @@ const Review = () => {
                                     Phạm Tuấn Anh
                                   </p>
                                   <p className="text-sm text-gray-400 block">
-                                    Tổ trưởng công trường
+                                    Tổ trưởng công xưởng
                                   </p>
                                 </div>
                               </div>
@@ -306,7 +306,7 @@ const Review = () => {
                                     Trần Thành Nhật
                                   </p>
                                   <p className="text-sm text-gray-400 block">
-                                      Kỹ thuật viên
+                                  TP.Kỹ thuật
                                   </p>
                                 </div>
                               </div>

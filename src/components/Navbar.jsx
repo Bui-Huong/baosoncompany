@@ -91,7 +91,7 @@ const Navbar = ({ checkShowPopup, setCheckShowPopup }) => {
   {/* Phần icon Word */}
   <div className="flex items-center">
     <a
-      href="/public/HSNL.pdf" // Đường dẫn đến file PDF
+      href="https://drive.google.com/file/d/1l_PrqYk23VIZWkoZbBjyu-yuPAbYhvC4/view?usp=sharing" // Đường dẫn đến file PDF
       target="_blank"
       rel="noopener noreferrer"
       className="text-KCTBS-blue hover:text-blue-700"

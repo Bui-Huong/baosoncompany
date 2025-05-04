@@ -531,7 +531,7 @@ const injectKeyframes = () => {
                   <div className="mt-4">
                       <div onClick={()=>setSelectMap(1)} className={selectMap == 1?"bg-yellow-200 p-4 rounded-md":"p-4 rounded-md"} style={{marginBottom:'5px'}}>
                           <h3 className="font-semibold">Văn Phòng - Đông Anh, Hà Nội</h3>
-                          <p className="text-sm">Thôn Lương Quy, Xã Xuân Nộn, Huyện Đông Anh, TP. Hà Nội</p>
+                          <p className="text-sm">Liền kề 6-38, Khu đô thị happy land, tổ 24, Thị trấn Đông Anh, Thành phố Hà Nội</p>
                           <p className="text-sm">Tel: 0902.250.689</p>
                       </div>
                       <div onClick={()=>setSelectMap(2)} className={selectMap == 2?"bg-yellow-200 p-4 rounded-md":"p-4 rounded-md"} style={{marginBottom:'5px'}}>
@@ -550,7 +550,7 @@ const injectKeyframes = () => {
               </div>
               { selectMap == 1 &&
                   <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2212.169111102127!2d105.86560237758327!3d21.175859699637815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31350132cb891c6f%3A0x2b1370878f0ddd17!2zQ8OUTkcgVFkgVE5ISCBUSEnhur5UIELhu4ogVsOAIEvhur5UIEPhuqRVIELhuqJPIFPGoE4!5e0!3m2!1sen!2s!4v1728360461447!5m2!1sen!2s"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1106.1488441453794!2d105.84683495448269!3d21.167261566253426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135014d5499268b%3A0x4c8e0c55b881184b!2zSGFwcHkgTGFuZCDEkMO0bmcgQW5o!5e0!3m2!1svi!2s!4v1743324628404!5m2!1svi!2s"
                       allowfullscreen=""
                       loading="lazy"
                       referrerpolicy="no-referrer-when-downgrade"
