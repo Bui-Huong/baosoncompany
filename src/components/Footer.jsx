@@ -24,6 +24,20 @@ const Footer = () => {
 							/>
 							
 						</Link>
+						<p class="text-body-color text-base">
+                            <h4 className="text-dark mb-1 text-xl font-bold">VĂN PHÒNG:</h4> Liền kề 6-38, Khu đô thị happy land, tổ 24, Thị trấn Đông Anh, Thành phố Hà Nội
+                        </p>
+                          <p className="text-body-color text-base">
+
+                              <h4 className="text-dark mb-1 text-xl font-bold">XƯỞNG SẢN XUẤT:</h4> Thôn Quảng Hội, Xã Quang Tiến, Huyện Sóc Sơn, TP.Hà Nội
+
+                          </p>
+                          <h4 class="text-dark mb-1 text-xl font-bold">
+                          Số điện thoại
+                        </h4>
+                        <p class="text-body-color text-base">
+                        Hotline: 024.388.232.96 -	Di động: 0962127788
+                        </p>
 					</div>
 					<div className="col-span-6 text-center md:text-left md:col-span-3">
 						<p className='py-2 text-blue-800 font-bold'>Danh mục</p>

@@ -175,7 +175,7 @@ const injectKeyframes = () => {
                                                 {/*</h4>*/}
                                                 <p className="text-body-color text-base">
                                                     <h4 className="text-dark mb-1 text-xl font-bold">VĂN PHÒNG:</h4> Số
-                                                    Thôn Lương Quy, Xã Xuân Nộn, Huyện Đông Anh, TP. Hà Nội
+                                                    Liền kề 6-38, Khu đô thị happy land, tổ 24, Thị trấn Đông Anh, Thành phố Hà Nội
                                                 </p>
                                                 <p className="text-body-color text-base">
 
@@ -297,7 +297,7 @@ const injectKeyframes = () => {
                         {/*  Địa điểm*/}
                         {/*</h4>*/}
                         <p class="text-body-color text-base">
-                            <h4 className="text-dark mb-1 text-xl font-bold">VĂN PHÒNG:</h4> Thôn Lương Quy, Xã Xuân Nộn, Huyện Đông Anh, TP. Hà Nội
+                            <h4 className="text-dark mb-1 text-xl font-bold">VĂN PHÒNG:</h4> Liền kề 6-38, Khu đô thị happy land, tổ 24, Thị trấn Đông Anh, Thành phố Hà Nội
                         </p>
                           <p className="text-body-color text-base">
 
