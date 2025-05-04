@@ -87,13 +87,50 @@ const Footer = () => {
 			</div>
 		</footer>
     </div>
+	{/* Facebook icon bên trái */}
+<div className="fixed bottom-20 left-5 z-50">
+  <a
+    href="https://www.facebook.com/can.bui.79" // Thay số FACEBOOK của bạn tại đây
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-white border border-blue-500 w-10 h-10 rounded-full flex items-center justify-center shadow-lg"
+  >
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Facebook_icon.svg"
+      alt="FACEBOOK"
+      className="w-6 h-6"
+    />
+  </a>
+</div>
+	{/* Zalo icon bên trái */}
+<div className="fixed bottom-5 left-5 z-50">
+  <a
+    href="https://zalo.me/0962127788" // Thay số Zalo của bạn tại đây
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-white border border-blue-500 w-10 h-10 rounded-full flex items-center justify-center shadow-lg"
+  >
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/9/91/Icon_of_Zalo.svg"
+      alt="Zalo"
+      className="w-6 h-6"
+    />
+  </a>
+</div>
+
      {/* scroll to top  */}
+    <div>    
 	<ScrollToTop showUnder={160}>
         <div className="bg-blue-500 w-10 h-10 text-white rounded-full flex items-center justify-center">
           <span>Top</span>
+		  
         </div>
       </ScrollToTop>
+	  </div>
+	
 	</>
+	
+	
   );
 }
 
