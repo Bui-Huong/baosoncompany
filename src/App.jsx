@@ -15,11 +15,11 @@ function App() {
       <Routes>
         <Route path="/" element ={<Homepage />}/>
         <Route path = "/products" element = {<Projects/>}/>
-        <Route path="/quytrinhtuyendung" element ={<QuyTrinhTuyenDung />}/>
+        {/* <Route path="/quytrinhtuyendung" element ={<QuyTrinhTuyenDung />}/> */}
         <Route path="/ViecLamNoiBat" element ={<ViecLamNoiBat />}/>
-        <Route path="/blogs" element ={<Blogs />}/>
+        {/* <Route path="/blogs" element ={<Blogs />}/> */}
         <Route path="/lienhe" element ={<Contact />}/>
-        <Route path="/chitietcongviec/:id" element ={<JobDetail />}/>
+        {/* <Route path="/chitietcongviec/:id" element ={<JobDetail />}/> */}
       </Routes>
     </BrowserRouter>
   )

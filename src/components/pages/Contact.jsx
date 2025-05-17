@@ -179,7 +179,7 @@ const injectKeyframes = () => {
                                                 </p>
                                                 <p className="text-body-color text-base">
 
-                                                    <h4 className="text-dark mb-1 text-xl font-bold">XƯỞNG SẢN XUẤT:</h4> Thôn Quảng Hội, Xã Quang Tiến, Huyện Sóc Sơn, TP.Hà Nội
+                                                    <h4 className="text-dark mb-1 text-xl font-bold">Nhà máy:</h4> Thôn Quảng Hội, Xã Quang Tiến, Huyện Sóc Sơn, TP.Hà Nội
 
                                                 </p>
                                                 {/* <p className="text-body-color text-base">
@@ -301,7 +301,7 @@ const injectKeyframes = () => {
                         </p>
                           <p className="text-body-color text-base">
 
-                              <h4 className="text-dark mb-1 text-xl font-bold">XƯỞNG SẢN XUẤT:</h4> Thôn Quảng Hội, Xã Quang Tiến, Huyện Sóc Sơn, TP.Hà Nội
+                              <h4 className="text-dark mb-1 text-xl font-bold">Nhà máy:</h4> Thôn Quảng Hội, Xã Quang Tiến, Huyện Sóc Sơn, TP.Hà Nội
 
                           </p>
                           {/* <p className="text-body-color text-base">

@@ -3,8 +3,6 @@ import Navbar from "../Navbar";
 import Footer from "../Footer";
 import {useAnimation, useInView, motion } from "framer-motion";
 import JobListings from "../JobListings.jsx";
-import SearchComponent from "../SearchComponent.jsx";
-import bannerdoc2 from "../images/bannerdoc2.jpg";
 import bannerngang from "../images/55b3cc2d-1325-4b3b-9425-e6709b37b333.jfif";
 import bannerngang1 from "../images/05725818-c9df-4357-b3bf-3c7e7ac7c122.jfif";
 import bannerngang2 from "../images/26858962-14d4-4eff-910a-72da6539ebd9.jfif";
@@ -14,7 +12,6 @@ import bannerngang5 from "../images/d3b50b93-a92e-4afe-9dff-88cbea4e7764.jfif";
 import Background from "../images/Background.png";
 import MasterService from "../service/master.service.jsx";
 import JobListingsMobile from "../JobListingsMobile.jsx";
-import jobListings from "../JobListings.jsx";
 
 const images = [
     bannerngang,

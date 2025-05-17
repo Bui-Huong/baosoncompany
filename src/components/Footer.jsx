@@ -29,7 +29,7 @@ const Footer = () => {
                         </p>
                           <p className="text-body-color text-base">
 
-                              <h4 className="text-dark mb-1 text-xl font-bold">XƯỞNG SẢN XUẤT:</h4> Thôn Quảng Hội, Xã Quang Tiến, Huyện Sóc Sơn, TP.Hà Nội
+                              <h4 className="text-dark mb-1 text-xl font-bold">Nhà máy:</h4> Thôn Quảng Hội, Xã Quang Tiến, Huyện Sóc Sơn, TP.Hà Nội
 
                           </p>
                           <h4 class="text-dark mb-1 text-xl font-bold">
@@ -87,25 +87,28 @@ const Footer = () => {
 			</div>
 		</footer>
     </div>
+	
 	{/* Facebook icon bên trái */}
-<div className="fixed bottom-20 left-5 z-50">
+{/* Facebook icon */}
+<div className="fixed bottom-36 left-5 z-50">
   <a
-    href="https://www.facebook.com/can.bui.79" // Thay số FACEBOOK của bạn tại đây
+    href="https://www.facebook.com/profile.php?id=100063602291764"
     target="_blank"
     rel="noopener noreferrer"
     className="bg-white border border-blue-500 w-10 h-10 rounded-full flex items-center justify-center shadow-lg"
   >
     <img
       src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Facebook_icon.svg"
-      alt="FACEBOOK"
+      alt="Facebook"
       className="w-6 h-6"
     />
   </a>
 </div>
-	{/* Zalo icon bên trái */}
-<div className="fixed bottom-5 left-5 z-50">
+
+{/* Zalo icon */}
+<div className="fixed bottom-20 left-5 z-50">
   <a
-    href="https://zalo.me/0962127788" // Thay số Zalo của bạn tại đây
+    href="https://zalo.me/0962127788"
     target="_blank"
     rel="noopener noreferrer"
     className="bg-white border border-blue-500 w-10 h-10 rounded-full flex items-center justify-center shadow-lg"
@@ -117,6 +120,30 @@ const Footer = () => {
     />
   </a>
 </div>
+
+{/* Phone call icon */}
+<div className="fixed bottom-5 left-5 z-50">
+  <a
+    href="tel:0962127788"
+    className="bg-white border border-green-500 w-10 h-10 rounded-full flex items-center justify-center shadow-lg"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className="h-6 w-6 text-green-600"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M3 5a2 2 0 012-2h2.28a1 1 0 01.94.658l1.518 4.546a1 1 0 01-.291 1.09l-1.922 1.6a16.001 16.001 0 006.586 6.586l1.6-1.922a1 1 0 011.09-.291l4.546 1.518A1 1 0 0119 18.72V21a2 2 0 01-2 2h-1C9.163 23 1 14.837 1 5V4a1 1 0 011-1h1z"
+      />
+    </svg>
+  </a>
+</div>
+
 
      {/* scroll to top  */}
     <div>    
