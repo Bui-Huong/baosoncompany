@@ -17,6 +17,7 @@ A modern company website built with React, Tailwind CSS designed to showcase you
 2. Navigate to the project folder: `cd Company-website-ReactJS-TailwindCSS`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm run dev`
+5. ok
 
 Visit `http://localhost:3000` to see your website.
 
