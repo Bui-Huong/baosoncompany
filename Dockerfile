@@ -1,6 +1,6 @@
 FROM nginx:1.20.1 AS base
 #RUN apt-get update && apt-get install -y wget
-COPY reactjs/nginx.conf /etc/nginx/nginx.conf
+COPY nginx.conf /etc/nginx/nginx.conf
 WORKDIR /usr/share/nginx/html
 EXPOSE 80:80
 
