@@ -8,7 +8,7 @@ EXPOSE 80:80
 #FROM node:16.20.0-alpine AS build
 FROM node:alpine3.20 AS build
 RUN mkdir -p /app
-COPY ["reactjs", "/app"]
+COPY . .
 WORKDIR /app
 RUN yarn -i
 RUN npm run build
