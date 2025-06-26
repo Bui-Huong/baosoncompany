@@ -3,7 +3,7 @@
 A modern company website built with React, Tailwind CSS designed to showcase your business, services, and portfolio.
 
 [Scroll down to see the images](#images)
-
+oj
 ## Features
 
 - Fast development with Vite.
@@ -17,6 +17,7 @@ A modern company website built with React, Tailwind CSS designed to showcase you
 2. Navigate to the project folder: `cd Company-website-ReactJS-TailwindCSS`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm run dev`
+5. ok
 
 Visit `http://localhost:3000` to see your website.
 
