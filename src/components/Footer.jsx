@@ -45,9 +45,9 @@ const Footer = () => {
 							<li className=" mr-2 text-KCTBS-blue hover:text-blue-800 font-semibold cursor-pointer">
 								<Link to="/">Trang chủ</Link>
 							</li>
-							{/* <li className=" mr-2 text-KCTBS-blue hover:text-blue-800 font-semibold cursor-pointer">
-								<Link to="/products">Sản phẩm</Link>
-							</li> */}
+							<li className=" mr-2 text-KCTBS-blue hover:text-blue-800 font-semibold cursor-pointer">
+								<Link to="/tintuc">Tin Tức</Link>
+							</li>
 							<li className=" mr-2 text-KCTBS-blue hover:text-blue-800 font-semibold cursor-pointer">
 								<Link to="/duan">Dự án</Link>
 							</li>
@@ -73,15 +73,7 @@ const Footer = () => {
 						<span>©2025 <span className='text-KCTBS-blue'>KCTBS</span>. All rights reserved.</span>
 					</div>
 					<div className="flex justify-center pt-4 space-x-4 lg:pt-0 lg:col-end-13">
-						{/*<Link  to="/" title="Email" className="flex items-center justify-center  rounded-full">*/}
-						{/*	<ImLinkedin2 className='text-KCTBS-blue w-7 h-7'/>*/}
-						{/*</Link>*/}
-						{/*<Link  to="/" title="Twitter" className="flex items-center justify-center  rounded-full">*/}
-						{/*	<ImFacebook className='text-KCTBS-blue w-7 h-7'/>*/}
-						{/*</Link>*/}
-						{/*<Link  to="/" title="GitHub" className="flex items-center justify-center  rounded-full ">*/}
-						{/*	<ImTwitter className='text-KCTBS-blue w-7 h-7'/>*/}
-						{/*</Link>*/}
+
 					</div>
 				</div>
 			</div>

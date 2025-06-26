@@ -123,6 +123,9 @@ const Navbar = ({ checkShowPopup, setCheckShowPopup }) => {
               <Link to="/">Trang chủ</Link>
             </li>
             <li className="text-KCTBS-blue hover:text-KCTBS-blue-bold font-bold pl-8 cursor-pointer pb-4">
+              <Link to="/tintuc">Tin tức</Link>
+            </li>
+            <li className="text-KCTBS-blue hover:text-KCTBS-blue-bold font-bold pl-8 cursor-pointer pb-4">
               <Link to="/duan">Dự án</Link>
             </li>
             <li className="text-KCTBS-blue hover:text-KCTBS-blue-bold font-bold pl-8 cursor-pointer pb-4">
