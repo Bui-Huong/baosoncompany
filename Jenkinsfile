@@ -36,7 +36,7 @@ pipeline {
             steps {
                 sh '''
                     # Build the Docker image
-                    docker build -t ${DOCKER_REGISTRY}/${IMAGE_NAME}:latest .
+                    docker build --no-cache -t ${DOCKER_REGISTRY}/${IMAGE_NAME}:latest .
                     
                     # Push to registry
                     # Khi nào image thay đổi nhiều thì hãy push để lưu trữ, vì downtime khi push phải hơn 10 phút 
