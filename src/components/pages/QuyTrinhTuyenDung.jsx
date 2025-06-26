@@ -121,7 +121,7 @@ const QuyTrinhTuyenDung = () => {
                                                         Ứng viên quan tâm tìm kiếm các vị trí tuyển dụng, cơ hội nghề nghiệp cùng KCTBS và cách thức dự tuyển tại:
                                                     </h4>
                                                     <div>
-                                                        <button onClick={()=>    navigate('/vieclamnoibat')} className="bg-KCTBS-yellow text-white" style={{width:300,fontSize:'24px',padding:'4px',alignItems:'center',borderRadius:'8px',marginTop:'8px'}}>
+                                                        <button onClick={()=>    navigate('/duan')} className="bg-KCTBS-yellow text-white" style={{width:300,fontSize:'24px',padding:'4px',alignItems:'center',borderRadius:'8px',marginTop:'8px'}}>
                                                             TÌM KIẾM VIỆC LÀM
                                                         </button>
                                                     </div>
@@ -448,7 +448,7 @@ const QuyTrinhTuyenDung = () => {
 
                                                     Ứng viên quan tâm tìm kiếm các vị trí tuyển dụng, cơ hội nghề nghiệp cùng KCTBS và cách thức dự tuyển tại:
                                                     <div>
-                                                    <button onClick={()=>    navigate('/vieclamnoibat')} className="bg-KCTBS-yellow text-white" style={{width:300,fontSize:'24px',padding:'4px',alignItems:'center',borderRadius:'8px',marginTop:'8px'}}>
+                                                    <button onClick={()=>    navigate('/duan')} className="bg-KCTBS-yellow text-white" style={{width:300,fontSize:'24px',padding:'4px',alignItems:'center',borderRadius:'8px',marginTop:'8px'}}>
                                                         TÌM KIẾM VIỆC LÀM
                                                     </button>
                                                     </div>

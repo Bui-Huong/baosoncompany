@@ -44,13 +44,22 @@ const Navbar = ({ checkShowPopup, setCheckShowPopup }) => {
                 </li>
                 <li
                   className={
-                    window.location.pathname === '/vieclamnoibat' ||
+                    window.location.pathname === '/tintuc'
+                      ? 'p-2 mr-3 text-KCTBS-blue hover:text-KCTBS-blue-bold font-bold cursor-pointer border-b-2 border-KCTBS-blue'
+                      : 'p-2 mr-3 text-KCTBS-blue hover:text-KCTBS-blue-bold font-bold cursor-pointer'
+                  }
+                >
+                  <Link to="/tintuc">Tin Tức</Link>
+                </li>
+                <li
+                  className={
+                    window.location.pathname === '/duan' ||
                     window.location.pathname.includes('chitietcongviec')
                       ? 'p-2 mr-3 text-KCTBS-blue hover:text-KCTBS-blue-bold font-bold cursor-pointer border-b-2 border-KCTBS-blue'
                       : 'p-2 mr-3 text-KCTBS-blue hover:text-KCTBS-blue-bold font-bold cursor-pointer'
                   }
                 >
-                  <Link to="/vieclamnoibat">Dự án</Link>
+                  <Link to="/duan">Dự án</Link>
                 </li>
                 <li
                   className={
@@ -114,7 +123,7 @@ const Navbar = ({ checkShowPopup, setCheckShowPopup }) => {
               <Link to="/">Trang chủ</Link>
             </li>
             <li className="text-KCTBS-blue hover:text-KCTBS-blue-bold font-bold pl-8 cursor-pointer pb-4">
-              <Link to="/vieclamnoibat">Dự án</Link>
+              <Link to="/duan">Dự án</Link>
             </li>
             <li className="text-KCTBS-blue hover:text-KCTBS-blue-bold font-bold pl-8 cursor-pointer pb-4">
               <Link to="/lienhe">Liên hệ</Link>

@@ -7,7 +7,7 @@ import blog3 from "../images/blogs/image-03.jpg";
 import { motion } from "framer-motion";
 const Products = () => {
     useEffect(() => {
-        document.title="KCTBS | Blogs";
+        document.title="KCTBS | Tin Tức";
     },[]);
     /* automatically scroll to the top of the page */
     useEffect(() => {

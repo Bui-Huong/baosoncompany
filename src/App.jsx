@@ -3,9 +3,9 @@ import { BrowserRouter,Routes, Route } from 'react-router-dom';
 import './App.css';
 import Homepage from './components/Homepage';
 import QuyTrinhTuyenDung from './components/pages/QuyTrinhTuyenDung.jsx';
-import ViecLamNoiBat from './components/pages/ViecLamNoiBat.jsx';
+import DuAn from './components/pages/DuAn.jsx';
 import Contact from './components/pages/Contact';
-import Blogs from './components/pages/Blogs';
+import TinTuc from './components/pages/TinTuc.jsx';
 import JobDetail from "./components/pages/JobDetail.jsx";
 import Projects from "./components/pages/Products.jsx";
 function App() {
@@ -14,10 +14,10 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element ={<Homepage />}/>
-        <Route path = "/products" element = {<Projects/>}/>
+        {/* <Route path = "/products" element = {<Projects/>}/> */}
         {/* <Route path="/quytrinhtuyendung" element ={<QuyTrinhTuyenDung />}/> */}
-        <Route path="/ViecLamNoiBat" element ={<ViecLamNoiBat />}/>
-        {/* <Route path="/blogs" element ={<Blogs />}/> */}
+        <Route path="/DuAn" element ={<DuAn />}/>
+        <Route path="/TinTuc" element ={<TinTuc />}/>
         <Route path="/lienhe" element ={<Contact />}/>
         {/* <Route path="/chitietcongviec/:id" element ={<JobDetail />}/> */}
       </Routes>

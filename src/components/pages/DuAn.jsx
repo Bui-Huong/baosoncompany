@@ -1,6 +1,6 @@
 import React, {useEffect, useRef, useState} from "react";
-import Navbar from "../Navbar";
-import Footer from "../Footer";
+import Navbar from "../Navbar.jsx";
+import Footer from "../Footer.jsx";
 import {useAnimation, useInView, motion } from "framer-motion";
 import JobListings from "../JobListings.jsx";
 import bannerngang from "../images/55b3cc2d-1325-4b3b-9425-e6709b37b333.jfif";
@@ -22,7 +22,7 @@ const images = [
     bannerngang5
   ];
 
-const ViecLamNoiBat = () => {
+const DuAn = () => {
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -34,7 +34,7 @@ const ViecLamNoiBat = () => {
       }, []);
 
     useEffect(() => {
-        document.title="KCTBS | Việc làm nổi bật";
+        document.title="KCTBS | Dự Án Và Sản Phẩm";
     },[]);
 
     const { innerWidth: width, innerHeight: height } = window;
@@ -137,7 +137,6 @@ const ViecLamNoiBat = () => {
         ):(
         <div className="max-w-screen overflow-x-hidden overflow-y-hidden font-poppins mt-16 sticky bg-cover bg-center bg-no-repeat w-full min-h-screen bg-fixed"  style={{backgroundImage:`url(${Background})`}}>
             <section className="">
-                {/*<div className="bg-gradient-to-r from-KCTBS-blue to-KCTBS-blue-200 container max-w-xl p-6 py-12 mx-auto lg:px-8 lg:max-w-7xl rounded-b-3xl">*/}
                 <div
                     style={{
                         backgroundImage: `url(${images[currentImageIndex]})`,
@@ -199,4 +198,4 @@ const ViecLamNoiBat = () => {
     </>
   );
 };
-export default ViecLamNoiBat;
+export default DuAn;

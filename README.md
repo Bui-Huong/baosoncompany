@@ -44,7 +44,7 @@ For questions or inquiries, please contact me at [sabircode.me@gmail.com].
 
 ## Images
 
-![homepage](https://github.com/youssefsabir101/Company-website-ReactJS-TailwindCSS/assets/106603638/6dac5977-08db-4c20-a757-17dd0ef556d7)
+<!-- ![homepage](https://github.com/youssefsabir101/Company-website-ReactJS-TailwindCSS/assets/106603638/6dac5977-08db-4c20-a757-17dd0ef556d7)
 
 ![about](https://github.com/youssefsabir101/Company-website-ReactJS-TailwindCSS/assets/106603638/9917e9d6-74d9-4a91-a2c6-3e0ec673591b)
 
@@ -52,7 +52,7 @@ For questions or inquiries, please contact me at [sabircode.me@gmail.com].
 
 ![blogs](https://github.com/youssefsabir101/Company-website-ReactJS-TailwindCSS/assets/106603638/291817e5-1834-4edc-a811-b549790f7bc9)
 
-![contact](https://github.com/youssefsabir101/Company-website-ReactJS-TailwindCSS/assets/106603638/a05468ae-27a6-4dbf-80f3-f08346670fa2)
+![contact](https://github.com/youssefsabir101/Company-website-ReactJS-TailwindCSS/assets/106603638/a05468ae-27a6-4dbf-80f3-f08346670fa2) -->
 
 
 
