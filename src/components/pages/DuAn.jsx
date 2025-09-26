@@ -67,6 +67,7 @@ const DuAn = () => {
   const [position, setPosition] = useState(""); // lọc theo region
   const [description, setDescription] = useState(""); // tìm kiếm theo title
   const [currentPage, setCurrentPage] = useState(1);
+  const [selectedProject, setSelectedProject] = useState(null); // ✅ dự án đang được click
   const postsPerPage = 3;
 
   // ✅ Lọc dữ liệu dự án
@@ -169,7 +170,7 @@ const DuAn = () => {
               <div
                 key={post.id}
                 className="bg-white shadow rounded-lg overflow-hidden cursor-pointer hover:shadow-xl transition"
-                onClick={() => alert(`Đi tới chi tiết dự án: ${post.title}`)}
+                onClick={() => setSelectedProject(post)} // ✅ mở modal khi click
               >
                 {post.type === "image" ? (
                   <img
@@ -229,6 +230,44 @@ const DuAn = () => {
           </div>
         </section>
       </div>
+
+      {/* ✅ Modal hiển thị ảnh lớn */}
+      {selectedProject && (
+  <div
+    className="fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center z-50"
+    onClick={() => setSelectedProject(null)} // click nền mờ để đóng
+  >
+    <div
+      className="bg-white rounded-lg p-4 max-w-5xl w-full relative"
+      onClick={(e) => e.stopPropagation()} // ngăn đóng khi click vào ảnh
+    >
+      {selectedProject.type === "image" ? (
+        <img
+          src={selectedProject.src}
+          alt={selectedProject.title}
+          className="w-full h-auto max-h-[90vh] object-contain rounded-lg"
+        />
+      ) : (
+        <video
+          src={selectedProject.src}
+          controls
+          autoPlay
+          loop
+          muted
+          className="w-full h-auto max-h-[90vh] object-contain rounded-lg"
+        />
+      )}
+      <div className="mt-4 text-center">
+        <h3 className="text-2xl font-bold">{selectedProject.title}</h3>
+        <p className="text-gray-600">
+          {selectedProject.date} • {selectedProject.region}
+        </p>
+        <p className="mt-2">{selectedProject.description}</p>
+      </div>
+    </div>
+  </div>
+)}
+
       <Footer />
     </>
   );
