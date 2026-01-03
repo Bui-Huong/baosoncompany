@@ -12,7 +12,6 @@ import Background from "../images/Background.png";
 import giaBinh01 from "../images/Gia Bình/z7052199856120_f719a2585b135812a0535ac909fc5b8b.jpg";
 import giaBinh02 from "../images/Gia Bình/z7052199863954_df1f483ada1d3b4927d692d5fa8ce6df.jpg";
 import giaBinh03 from "../images/Gia Bình/z7052199866591_3ce3e3f721b15c1ad2a44036c1d2630f.jpg";
-import giaBinh04 from "../images/Gia Bình/z7052200015691_7b7ad95474adfd77df2e040370bec1b0.jpg";
 import giaBinh05 from "../images/Gia Bình/z7052200088492_110a257760bd4cb30cde968c87d14173.jpg";
 import mizen01 from "../images/Mizen/z7052199932022_786a0a2d7e7d58de164401c80c4e24d1.jpg";
 import mizen02 from "../images/Mizen/z7052199936254_cb017764f0a318ba1936c3677a34099f.jpg";
@@ -26,16 +25,64 @@ import thachThat03 from "../images/Thạch Thất/z7052199978141_ce21cf0d7a27fec
 import thachThat04 from "../images/Thạch Thất/z7052199978402_90d7d4c40f8082eeb0a96f2414110930.jpg";
 import thachThat05 from "../images/Thạch Thất/z7052199989301_1c155f28eb35490feefe34738a3739b4.jpg";
 import thachThat06 from "../images/Thạch Thất/z7052199995080_860f3187037023ea748727c6f3beecf7.jpg";
+import giaBinh06 from "../images/Gia Bình/z7392535516298_fad69e7408aac28cfacf0372a9d182c4.jpg";
+import giaBinh07 from "../images/Gia Bình/z7392535517744_25f74c25e7a8056befbfa55043b83e53.jpg";
+import giaBinh08 from "../images/Gia Bình/z7392535524099_a1211e2639a74d0182d2677e56b15f23.jpg";
+import giaBinh09 from "../images/Gia Bình/z7392535524219_2ead3c6009e68dc2fe515b9ee37f6b4d.jpg";
+import giaBinh10 from "../images/Gia Bình/z7392535524361_9f4843b6ff0341d9470220f5040b88a2.jpg";
+import giaBinh11 from "../images/Gia Bình/z7392535526467_d8529af3a749464206ab6e58319394a3.jpg";
+import giaBinh12 from "../images/Gia Bình/z7392535532031_dd2a2c26e1b5896941c314647c8e8c09.jpg";
+import giaBinh13 from "../images/Gia Bình/z7392535532273_8d59498fe524e11856164148137f99e7.jpg";
+import giaBinh14 from "../images/Gia Bình/z7392535533877_28771d0513e8cef89ec0d42303a45f9d.jpg";
+import giaBinh15 from "../images/Gia Bình/z7392535534773_434b94489df477c1cbbea051b5b3958d.jpg";
+import giaBinh16 from "../images/Gia Bình/z7392535545447_39fa0ea2b0ad229b77e00f96d796f2cc.jpg";
+import giaBinh17 from "../images/Gia Bình/z7392535545681_63486bcdf26ec99dba3f1f1f5268d56d.jpg";
+import giaBinh18 from "../images/Gia Bình/z7392535546135_05b94c32fec946a4386d9c57e614236b.jpg";
+import giaBinh19 from "../images/Gia Bình/z7392535547084_083d01ef3cd2d8476a23f1acc40129ce.jpg";
+import giaBinh20 from "../images/Gia Bình/z7392535556521_03941c028a7d1753eb97ca336beec0c8.jpg";
+import giaBinh21 from "../images/Gia Bình/z7392535558815_98756f4b9cd4a959fddc30bf854793f0.jpg";
+import giaBinh22 from "../images/Gia Bình/z7392535565400_893222b47b5b71ba49f30180dd268c99.jpg";
+import giaBinh23 from "../images/Gia Bình/z7392535568268_43e012e2bda00f8c150b7da9d41cdc22.jpg";
+import phuongtrang01 from "../images/Phuong Trang/z7392665790962_5e16b87c75a5ec10eb0219a662b70f82.jpg";
+import phuongtrang02 from "../images/Phuong Trang/z7392665794191_893425c47ea4a5a4ec64063df12f8b68.jpg";
+import phuongtrang03 from "../images/Phuong Trang/z7392665803028_856e4667f8ee8dcd8ddaef50cae19bfd.jpg";
+import phuongtrang04 from "../images/Phuong Trang/z7392665803154_ca27aecc7ade4aa142997fee0a315285.jpg";
+import phuongtrang05 from "../images/Phuong Trang/z7392665803259_785343b98f1567b1839e5b45a34450b5.jpg";
+import phuongtrang06 from "../images/Phuong Trang/z7392665866122_1dec274aef24763e42d0fc792eacc47a.jpg";
+import phuongtrang07 from "../images/Phuong Trang/z7392665867420_d5e85b303179dcc304dcc39a17530fc6.jpg";
+import phuongtrang08 from "../images/Phuong Trang/z7392665869686_b83bda1d0e9c49682d82535923766178.jpg";
+import phuongtrang09 from "../images/Phuong Trang/z7392665872558_054b75cfa85bdd048fc613eb1fd5f674.jpg";
+import phuongtrang10 from "../images/Phuong Trang/z7392665875821_55bffcfc9296e6d9ab2fd4ab7c99d5e0.jpg";
+import phuongtrang11 from "../images/Phuong Trang/z7392665875921_58659fb8a9e81c03a9e26123dda02090.jpg";
+import phuongtrang12 from "../images/Phuong Trang/z7392665892002_81a8a027b7879dd2d36c2c67291450e3.jpg";
+import quangtuan01 from "../images/Quang Tuan/z7392540822413_a4fdc3366d37bb834fef2cf62f53920a.jpg";
+import quangtuan02 from "../images/Quang Tuan/z7392540822848_0d7bdcbc2b112a268e5b8acfa3444698.jpg";
+import quangtuan03 from "../images/Quang Tuan/z7392540827104_08641659877e7dfe33b9d8b46412ffaf.jpg";
+import quangtuan04 from "../images/Quang Tuan/z7392540851372_36e2e61c61dae4c97ecfc3ce70ebcdd8.jpg";
+import quangtuan05 from "../images/Quang Tuan/z7392540852040_84d9182fa2963b32c6d5c66d2e37a974.jpg";
+import quangtuan06 from "../images/Quang Tuan/z7392540856391_1bdb81efe600c5f28d9fe96beae0de48.jpg";
+import quangtuan07 from "../images/Quang Tuan/z7392540860962_3bf5d362d9f725ffa3ab9cb227c0a273.jpg";
+import quangtuan08 from "../images/Quang Tuan/z7392540861275_8cbde24f0befc9500608c87da3b5c028.jpg";
+
+
+
 
 const projectPosts = [
   {
     id: 1,
-    title: "Nhà máy Gia Bình",
+    title: "Công trình máy Gia Bình",
     date: "2024-09-01",
     type: "image",
-    src: [giaBinh01, giaBinh02, giaBinh03, giaBinh04, giaBinh05],
+    src: [giaBinh01, giaBinh02, giaBinh03, giaBinh05,giaBinh06,giaBinh07,giaBinh08,giaBinh09,giaBinh10,giaBinh11,giaBinh12,giaBinh13,giaBinh14,giaBinh15,giaBinh16,giaBinh17,giaBinh18,giaBinh19,giaBinh20,giaBinh21,giaBinh22,giaBinh23],
     region: "Miền Bắc",
-    description: "Nhà máy sản xuất kết cấu thép tại khu công nghiệp Gia Bình.",
+    description: "Nhà máy sản xuất kết cấu thép tại khu công nghiệp Gia Bình.\n\n"+
+    "Toàn bộ kết cấu thép chính được làm từ thép Q345(hoặc tương đương)- chưa qua sử dụng.\n\n"+
+    "Các kết cấu chính được hàn bằng phương pháp tự động.\n\n"+
+    "Làm sạch bằng phun hạt kim loại.\n\n"+
+    "Sơn 01 lớp chống rỉ và 02 lớp trang trí màu ghi sáng (Son THHN hệ ALkyd) bằng phương pháp sơn phun áp lực cao.\n\n"+
+    "Địa điểm sản xuất: Thôn Quảng Hội, Xã Nội Bài, Thành phố Hà Nội.\n\n"+
+    "Địa điểm lắp dựng: Lô CN-05.3. Khu công nghiệp Gia Bình, xã Đại Bái, Tỉnh Bắc Ninh.\n\n"+
+    "Giá trị hợp đồng 8.536.000.000 VND",
   },
   {
     id: 2,
@@ -44,25 +91,67 @@ const projectPosts = [
     type: "image",
     src: [mizen01, mizen02, mizen03, mizen04, mizen05],
     region: "Miền Bắc",
-    description: "Dự án xây dựng hạ tầng KCN Mizen.",
+    description: "Dự án xây dựng hạ tầng KCN Mizen..\n\n"+
+    "Toàn bộ kết cấu thép chính được làm từ thép SS400(hoặc tương đương)- mới 100%.\n\n"+
+    "Các kết cấu chính được hàn bằng phương pháp tự động.\n\n"+
+    "Làm sạch bằng phun hạt kim loại.\n\n"+
+    "Giá trị hợp đồng 1: 1.490.000.000 VND, hợp đồng 2: 195.000.000 VND, hợp đồng 3: 415.187.000 VND, ",
   },
   {
     id: 3,
-    title: "Nhà xưởng Liên Hà",
+    title: "Công trình xưởng Liên Hà",
     date: "2025-03-21",
     type: "image",
     src: mungLienHa01,
     region: "Miền Bắc",
-    description: "Nhà xưởng sản xuất và kho bãi tại Liên Hà.",
+    description: "Nhà xưởng sản xuất và kho bãi tại Liên Hà.\n\n"+
+    "Toàn bộ kết cấu thép chính được làm từ thép SS400(hoặc tương đương)- mới 100%.\n\n"+
+    "Các kết cấu chính được hàn bằng phương pháp tự động.\n\n"+
+    "Làm sạch bằng phun hạt kim loại.\n\n"+
+    "Giá trị hợp đồng: 766.000.000 VND",
   },
   {
     id: 4,
-    title: "Nhà ở Thạch thất",
+    title: "Công trình ở Thạch thất",
     date: "2025-05-21",
     type: "image",
     src: [thachThat01, thachThat02, thachThat03, thachThat04, thachThat05, thachThat06],
     region: "Miền Bắc",
-    description: "Nhà ở tại Thạch Thất.",
+    description: "Nhà ở tại Thạch Thất.\n\n"+
+    "Toàn bộ kết cấu thép chính được làm từ thép SS400(hoặc tương đương)- mới 100%.\n\n"+
+    "Các kết cấu chính được hàn bằng phương pháp tự động.\n\n"+
+    "Làm sạch bằng phun hạt kim loại.",
+  },
+  {
+    id: 5,
+    title: "Công trình Phương Trang",
+    date: "2025-12-1",
+    type: "image",
+    src: [phuongtrang01, phuongtrang02, phuongtrang03, phuongtrang04, phuongtrang05, phuongtrang06,phuongtrang07,phuongtrang08,phuongtrang09,phuongtrang10,phuongtrang11,phuongtrang12],
+    region: "Miền Bắc",
+    description: "khu công nghiệp Phạm Ngũ Lão. Sản xuất, vận chuyển và lắp dựng kết cấu thép nhà xưởng K21 L82.5 H6.8 B7.5.\n\n"+
+    "Toàn bộ kết cấu thép chính được làm từ thép Q345(hoặc tương đương)- mới 100%.\n\n"+
+    "Các kết cấu chính được hàn bằng phương pháp tự động.\n\n"+
+    "Làm sạch bằng phun hạt kim loại.\n\n"+
+    "Sơn 01 lớp chống rỉ và 02 lớp trang trí màu ghi sáng (Son THHN hệ ALkyd) bằng phương pháp sơn phun áp lực cao.\n\n"+
+    "Địa điểm sản xuất: Thôn Quảng Hội, Xã Nội Bài, Thành phố Hà Nội\n\n"+
+    "Giá trị hợp đồng 786.000.000 VND",
+  },
+  {
+    id: 6,
+    title: "Công trình Quang Tuấn",
+    date: "2025-07-23",
+    type: "image",
+    src: [quangtuan01, quangtuan02, quangtuan03, quangtuan04, quangtuan05, quangtuan06,quangtuan07,quangtuan08],
+    region: "Miền Bắc",
+    description: "khu công nghiệp Sơn cầm 1. Sản xuất, vận chuyển và lắp dựng kết cấu thép nhà xưởng.\n\n"+
+    "Toàn bộ kết cấu thép chính được làm từ thép SS400(hoặc tương đương)- mới 100%.\n\n"+
+    "Các kết cấu chính được hàn bằng phương pháp tự động.\n\n"+
+    "Làm sạch bằng phun hạt kim loại.\n\n"+
+    "Sơn 01 lớp chống rỉ và 02 lớp trang trí màu ghi sáng (Son THHN hệ ALkyd) bằng phương pháp sơn phun áp lực cao.\n\n"+
+    "Địa điểm sản xuất: Thôn Quảng Hội, Xã Nội Bài, Thành phố Hà Nội\n\n"+
+    "Địa điểm lắp dựng: Lô CN-6.1. Khu công nghiệp Sơn Cầm 1, Phường Quan Triều, Tỉnh Thái Nguyên.\n\n"+
+    "Giá trị hợp đồng 2.301.000.000 VND",
   },
 ];
 
@@ -240,7 +329,7 @@ const DuAn = () => {
                   <img
                     src={selectedProject.src[currentModalImage]}
                     alt={selectedProject.title}
-                    className="w-full h-auto max-h-[90vh] object-contain rounded-lg"
+                    className="max-w-full max-h-[85vh] object-contain mx-auto rounded-lg"
                   />
                   <div className="flex justify-between mt-2">
                     <button

@@ -10,6 +10,7 @@ import blog6 from "../images/blogs/bangiaodat.jpg";
 import blog7 from "../images/blogs/SamSon01.jpg";
 import videoKhoiCongNhaMay01 from "../images/Bảo Sơn Thái Nguyên/7052246591880.mp4";
 import choThueNhaMay01 from "../images/Bảo Sơn Thái Nguyên/z7052318191209_82ec3f54e7a59550b3376efe04fb26d6.jpg";
+import TatNien202601 from "../images/Tat nien/z7392542844850_afbd90abfc1f7167ec18c17882e2d0a4.jpg";
 import { motion } from "framer-motion";
 const blogPosts = [
   {
@@ -83,6 +84,14 @@ const blogPosts = [
     type: "image",
     src: choThueNhaMay01, 
     description: "Công ty chúng tôi đang có nhà xưởng rộng 32m dài 96m cao 9m tại Phú Bình Thái Nguyên cho thuê. Khách hàng có nhu cầu alo nhé. 0902250689",
+  },
+  {
+    id: 10,
+    title: "Tất niên công ty Bảo Sơn 2026",
+    date: "2025-12-31",
+    type: "image",
+    src: TatNien202601, 
+    description: "Công ty tổ chức tất niên cho cán bộ công nhân viên nhà máy hoàn thành 2025 bắt đầu 2026",
   },
 ];
 const TinTuc = () => {
