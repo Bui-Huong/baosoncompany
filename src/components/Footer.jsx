@@ -29,7 +29,7 @@ const Footer = () => {
                         </p>
                           <p className="text-body-color text-base">
 
-                              <h4 className="text-dark mb-1 text-xl font-bold">Nhà máy:</h4> Thôn Quảng Hội, Xã Quang Tiến, Huyện Sóc Sơn, TP.Hà Nội
+                              <h4 className="text-dark mb-1 text-xl font-bold">Nhà máy:</h4> Thôn Quảng Hội, Xã Nội Bài, TP.Hà Nội
 
                           </p>
                           <h4 class="text-dark mb-1 text-xl font-bold">

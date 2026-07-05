@@ -179,7 +179,7 @@ const injectKeyframes = () => {
                                                 </p>
                                                 <p className="text-body-color text-base">
 
-                                                    <h4 className="text-dark mb-1 text-xl font-bold">Nhà máy:</h4> Thôn Quảng Hội, Xã Quang Tiến, Huyện Sóc Sơn, TP.Hà Nội
+                                                    <h4 className="text-dark mb-1 text-xl font-bold">Nhà máy:</h4> Thôn Quảng Hội, Xã Nội Bài, TP.Hà Nội
 
                                                 </p>
                                                 {/* <p className="text-body-color text-base">
@@ -301,7 +301,7 @@ const injectKeyframes = () => {
                         </p>
                           <p className="text-body-color text-base">
 
-                              <h4 className="text-dark mb-1 text-xl font-bold">Nhà máy:</h4> Thôn Quảng Hội, Xã Quang Tiến, Huyện Sóc Sơn, TP.Hà Nội
+                              <h4 className="text-dark mb-1 text-xl font-bold">Nhà máy:</h4> Thôn Quảng Hội, Xã Nội Bài, TP.Hà Nội
 
                           </p>
                           {/* <p className="text-body-color text-base">
@@ -535,8 +535,8 @@ const injectKeyframes = () => {
                           <p className="text-sm">Tel: 0902.250.689</p>
                       </div>
                       <div onClick={()=>setSelectMap(2)} className={selectMap == 2?"bg-yellow-200 p-4 rounded-md":"p-4 rounded-md"} style={{marginBottom:'5px'}}>
-                          <h3 className="font-semibold">Nhà máy - Sóc Sơn, Hà Nội</h3>
-                          <p className="text-sm">Thôn Quảng Hội, Xã Quang Tiến, Huyện Sóc Sơn, TP.Hà Nội</p>
+                          <h3 className="font-semibold">Nhà máy - Nội Bài, Hà Nội</h3>
+                          <p className="text-sm">Thôn Quảng Hội, Xã Nội Bài, TP.Hà Nội</p>
                           <p className="text-sm">Tel: 0902.250.689</p>
                       </div>
                       <div onClick={()=>setSelectMap(3)} className={selectMap == 3?"bg-yellow-200 p-4 rounded-md":"p-4 rounded-md"} style={{marginBottom:'5px'}}>
