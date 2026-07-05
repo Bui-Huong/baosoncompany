@@ -539,6 +539,11 @@ const injectKeyframes = () => {
                           <p className="text-sm">Thôn Quảng Hội, Xã Quang Tiến, Huyện Sóc Sơn, TP.Hà Nội</p>
                           <p className="text-sm">Tel: 0902.250.689</p>
                       </div>
+                      <div onClick={()=>setSelectMap(3)} className={selectMap == 3?"bg-yellow-200 p-4 rounded-md":"p-4 rounded-md"} style={{marginBottom:'5px'}}>
+                          <h3 className="font-semibold">Nhà máy - Thái Nguyên</h3>
+                          <p className="text-sm">Vành Đai 5, Điềm Thụy, Thái Nguyên, Vietnam</p>
+                          <p className="text-sm">Tel: 0902.250.689</p>
+                      </div>
                       {/* <div onClick={()=>setSelectMap(3)} className={selectMap == 3?"bg-yellow-200 p-4 rounded-md":"p-4 rounded-md"}>
                           <h3 className="font-semibold">Văn phòng Hồ Chí Minh</h3>
                           <p className="text-sm">Tầng 3, Tòa nhà VPCN Phía Nam – TCT HKVN, số 49 Trường Sơn, Q. Tân Bình, TP. HCM</p>
@@ -559,6 +564,14 @@ const injectKeyframes = () => {
               { selectMap == 2 &&
                   <iframe
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1205.511776517223!2d105.81540697737157!3d21.259326945234957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135036b4d53b927%3A0x9305be1ba1ccd3e6!2zQ8O0bmcgVHkgVE5ISCB0aGnhur90IGLhu4sgdsOgIGvhur90IGPhuqV1IELhuqNvIFPGoW4!5e0!3m2!1sen!2s!4v1728361587110!5m2!1sen!2s"
+                      allowfullscreen=""
+                      loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"
+                      className="w-screen sm:mx-36 mx-10 h-[30rem]"></iframe>
+              }
+              { selectMap == 3 &&
+                  <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5251.5005480690115!2d105.95231790250848!3d21.45392937027377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313519dacb8b905b%3A0x1e80a50cafd88f94!2zQ-G7pW0gY8O0bmcgbmdoaeG7h3AgTGUgTW9udCAtIFh1w6JuIFBoxrDGoW5n!5e0!3m2!1sen!2s!4v1783226431132!5m2!1sen!2s"
                       allowfullscreen=""
                       loading="lazy"
                       referrerpolicy="no-referrer-when-downgrade"

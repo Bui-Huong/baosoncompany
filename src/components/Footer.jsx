@@ -51,6 +51,9 @@ const Footer = () => {
 							<li className=" mr-2 text-KCTBS-blue hover:text-blue-800 font-semibold cursor-pointer">
 								<Link to="/duan">Dự án</Link>
 							</li>
+              <li className=" mr-2 text-KCTBS-blue hover:text-blue-800 font-semibold cursor-pointer">
+								<Link to="/thietbisanxuat">Thiết bị sản xuất</Link>
+							</li>
 							<li className=" mr-2 text-KCTBS-blue hover:text-blue-800 font-semibold cursor-pointer">
 								<Link to="/lienhe">Liên hệ</Link>
 							</li>

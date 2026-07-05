@@ -63,6 +63,15 @@ const Navbar = ({ checkShowPopup, setCheckShowPopup }) => {
                 </li>
                 <li
                   className={
+                    window.location.pathname === '/thietbisanxuat'
+                      ? 'p-2 mr-3 text-KCTBS-blue hover:text-KCTBS-blue-bold font-bold cursor-pointer border-b-2 border-KCTBS-blue'
+                      : 'p-2 mr-3 text-KCTBS-blue hover:text-KCTBS-blue-bold font-bold cursor-pointer'
+                  }
+                >
+                  <Link to="/thietbisanxuat">Thiết bị sản xuất</Link>
+                </li>
+                <li
+                  className={
                     window.location.pathname === '/lienhe'
                       ? 'p-2 mr-3 text-KCTBS-blue hover:text-KCTBS-blue-bold font-bold cursor-pointer border-b-2 border-KCTBS-blue'
                       : 'p-2 mr-3 text-KCTBS-blue hover:text-KCTBS-blue-bold font-bold cursor-pointer'
@@ -127,6 +136,9 @@ const Navbar = ({ checkShowPopup, setCheckShowPopup }) => {
             </li>
             <li className="text-KCTBS-blue hover:text-KCTBS-blue-bold font-bold pl-8 cursor-pointer pb-4">
               <Link to="/duan">Dự án</Link>
+            </li>
+            <li className="text-KCTBS-blue hover:text-KCTBS-blue-bold font-bold pl-8 cursor-pointer pb-4">
+              <Link to="/thietbisanxuat">Thiết bị sản xuất</Link>
             </li>
             <li className="text-KCTBS-blue hover:text-KCTBS-blue-bold font-bold pl-8 cursor-pointer pb-4">
               <Link to="/lienhe">Liên hệ</Link>

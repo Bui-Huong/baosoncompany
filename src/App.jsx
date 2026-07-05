@@ -2,10 +2,10 @@ import React from 'react';
 import { BrowserRouter,Routes, Route } from 'react-router-dom';
 import './App.css';
 import Homepage from './components/Homepage';
-import QuyTrinhTuyenDung from './components/pages/QuyTrinhTuyenDung.jsx';
 import DuAn from './components/pages/DuAn.jsx';
 import Contact from './components/pages/Contact';
 import TinTuc from './components/pages/TinTuc.jsx';
+import ThietBiSanXuat from './components/pages/Products.jsx';
 import JobDetail from "./components/pages/JobDetail.jsx";
 import Projects from "./components/pages/Products.jsx";
 function App() {
@@ -18,6 +18,7 @@ function App() {
         {/* <Route path="/quytrinhtuyendung" element ={<QuyTrinhTuyenDung />}/> */}
         <Route path="/DuAn" element ={<DuAn />}/>
         <Route path="/TinTuc" element ={<TinTuc />}/>
+        <Route path="/ThietBiSanXuat" element ={<ThietBiSanXuat />}/>
         <Route path="/lienhe" element ={<Contact />}/>
         {/* <Route path="/chitietcongviec/:id" element ={<JobDetail />}/> */}
       </Routes>
